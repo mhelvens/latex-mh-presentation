@@ -54,7 +54,7 @@
 \newenvironment{summary}[1][1]{
 	\noindent\begin{minipage}[t]{0.39\linewidth}
 		\setlength\fboxsep{0pt}
-		\vspace{0pt}\fbox{\hspace{-1.2mm}\includeslide[width=\linewidth]{%
+		\vspace{0pt}\fbox{\includeslide[width=\linewidth]{%
 			\if\IsNumber{#1}%
 				\SlideLabel<#1>%
 			\else%
@@ -73,7 +73,7 @@
 \newcommand{\@showSlide}[2]{
 	\noindent\begin{minipage}[t]{0.315\linewidth}
 		\setlength\fboxsep{0pt}
-		\vspace{0pt}\fbox{\hspace{-1.2mm}\includeslide[width=\linewidth]{%
+		\vspace{0pt}\fbox{\includeslide[width=\linewidth]{%
 			\if\IsNumber{#1}%
 				#2<#1>%
 			\else%
