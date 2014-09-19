@@ -7,5 +7,5 @@ but this class offers different user-commands, to run some code in the backgroun
 make everything work.
 
 Check out `example/presentation.tex` and follow the comments for a guide to using
-this document class.
+this class.
 
